@@ -31,7 +31,7 @@ int main(){
     printf("rentrez les valeurs dans l'ordre croissant\n");
 
 
-    for (int i = 0;i<nb_valeur;i++){
+    for (int i = 0;i<nb_valeur;i++){        /* Juste pour info, je crois qu'il fallait aussi empêcher la saisie d'une valeur plus petite que la précédente*/
         printf("entrez valeur %d : ",i);
         scanf("%d",&tableau[i]);
         scanf("%c",&buffer);
